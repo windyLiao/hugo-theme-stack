@@ -1,7 +1,6 @@
 ---
 title: About
 description: This is my individual description
-websites
 date: '2024-02-10'
 aliases:
   - about-us
