@@ -1,6 +1,6 @@
 +++
 author = "yifanLiao"
-title = "Rich Content"
+title = "website-user-maual"
 date = "2024-02-10"
 description = "A brief description of use method"
 tags = [
