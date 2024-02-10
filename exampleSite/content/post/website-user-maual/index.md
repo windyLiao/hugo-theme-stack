@@ -1,5 +1,4 @@
-***
-
++++
 author = "yifanLiao"
 title = "Rich Content"
 date = "2024-02-10"
@@ -9,7 +8,9 @@ tags = [
     "web",
 ]
 
-***
++++
+
+
 
 # Blog部署及修改方法
 
@@ -18,6 +19,8 @@ tags = [
 1. 通过[Hugo选择适合自己风格的网站](https://themes.gohugo.io/)
 2. 进入github项目后点击fork加入自己项目列表中
 3. 进入[Netfily](app.netlify.com),选择github账号登录，选择你的网页项目后进行构建
+
+
 
 ## Part2:部署后搭建自己的网站
 
