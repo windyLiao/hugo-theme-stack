@@ -1,4 +1,4 @@
----
+***
 
 author = "yifanLiao"
 title = "Rich Content"
@@ -9,7 +9,7 @@ tags = [
     "web",
 ]
 
----
+***
 
 # Blog部署及修改方法
 
