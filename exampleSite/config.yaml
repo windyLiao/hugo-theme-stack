@@ -2,22 +2,22 @@ baseurl: https://example.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Liao's blog
 copyright: Example Person
 
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Liao's blog
         weight: 1
         params:
-            description: Example description
+            description: This is Liao's blog.Record his course of growth.
     zh-cn:
         languageName: 中文
-        title: 演示站点
+        title: 廖一帆的个人博客
         weight: 2
         params:
-            description: 演示说明
+            description: 这里是廖一帆的个人博客，记录他的成长之路。
     ar:
         languageName: عربي
         languagedirection: rtl
