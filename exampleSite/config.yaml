@@ -3,7 +3,7 @@ languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 title: Liao's blog
-copyright: Example Person
+copyright: yifan Liao
 
 languages:
     en:
