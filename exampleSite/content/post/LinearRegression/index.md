@@ -101,10 +101,12 @@ $$
 
 有一次方程组如下：
 $$
-\begin{cases}
+\left\{
+\begin{aligned}
 x + y = 14 \\
 2x - y = 10
-\end{cases}
+\end{aligned}
+\right.
 $$
 求解方法(代码)：
 
