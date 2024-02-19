@@ -9,7 +9,7 @@ categories = [
 ]
 image = "image2.png"
 
-math：true
+math: true
 
 +++
 
