@@ -44,3 +44,8 @@ Block math:
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
 $$
+
+$$
+\omega ^{*}=(X^{\top}X)^{-1}X^{\top}y
+$$
+
