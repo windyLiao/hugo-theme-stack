@@ -103,8 +103,8 @@ $$
 $$
 \left\{
 \begin{aligned}
-x + y = 14 \\
-2x - y = 10
+x + y &= 14 \\
+2x - y &= 10
 \end{aligned}
 \right.
 $$
