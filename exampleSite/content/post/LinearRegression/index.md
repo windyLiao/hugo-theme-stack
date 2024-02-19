@@ -11,6 +11,17 @@ image = "image2.png"
 
 +++
 
+{{< math.inline >}}
+{{ if or .Page.Params.math .Site.Params.math }}
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+{{ end }}
+{{</ math.inline >}}
+
 # Linear Regression
 
 ## 1、基本概念
@@ -173,9 +184,9 @@ np.concatenate([X,np.full(shape=(8,1),fill_value=1)],axis=1)
 
 ### 2.5 正规方程推导
 
-![推导过程1](inference1.png "推导")
+<img src="inference1.png" alt="推导过程1" title="推导" style="zoom:67%;" />
 
-![推导过程2](inference2.png "推导过程")
+<img src="inference2.png" alt="推导过程2" title="推导过程" style="zoom:67%;" />
 
 ## 3、总结
 
